@@ -1,8 +1,13 @@
 
 public class Day31 {
+
     public static void main(String[] args) {
-        System.out.println("armi");
-       
+
+        for (int i = 0; i < 10; i++) {
+            if (i == 5) {
+                break;
+            }
+            System.out.println("Nilai i adalah " + i);
+        }
     }
-    
 }
